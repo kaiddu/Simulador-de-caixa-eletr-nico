@@ -1,6 +1,6 @@
 let nome = prompt("Nome do correntista: ");
-let tipoConta = Number(prompt("Tipo de conta: (1 - Corrente, 2 - Poupança, 3 - Salário)"));
-let operacao = Number(prompt("Operação: (1 - Saque, 2 - Depósito, 3 - Consultar Saldo)"));
+let tipoConta = Number(prompt("Tipo de conta: \n1 - Corrente \n2 - Poupança \n3 - Salário \n"));
+let operacao = Number(prompt("Operação: \n1 - Saque \n2 - Depósito \n3 - Consultar Saldo \n"));
 let saldo = Number(prompt("Saldo atual: "));
 let valor = 0;
 
